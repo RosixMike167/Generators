@@ -1,0 +1,8 @@
+name: BWGenerator
+author: Zio_Pagnotta
+api-version: 1.20
+main: it.ziopagnotta.bwgenerator.BWGenerator
+version: 1.0.0
+
+commands:
+  generator:
