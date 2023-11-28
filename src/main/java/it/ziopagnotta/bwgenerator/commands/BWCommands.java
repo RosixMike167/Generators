@@ -4,7 +4,6 @@ import it.ziopagnotta.bwgenerator.BWGenerator;
 import it.ziopagnotta.bwgenerator.drop.ItemDrop;
 import it.ziopagnotta.bwgenerator.generator.Generator;
 import it.ziopagnotta.bwgenerator.generator.GeneratorFactory;
-import it.ziopagnotta.bwgenerator.generator.MovementAxis;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextDecoration;
@@ -17,13 +16,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.*;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Transformation;
-import org.bukkit.util.Vector;
 import org.jetbrains.annotations.NotNull;
 import org.joml.AxisAngle4f;
-import org.joml.Quaternionf;
 import org.joml.Vector3f;
-
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class BWCommands implements CommandExecutor {
     private final BWGenerator plugin;

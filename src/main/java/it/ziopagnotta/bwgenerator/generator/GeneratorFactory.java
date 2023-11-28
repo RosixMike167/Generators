@@ -64,7 +64,6 @@ public class GeneratorFactory {
 
             if (generatorLocation.distanceSquared(location) < nearestLocation.distanceSquared(location)) {
                 nearest = generator;
-                break;
             }
         }
 
